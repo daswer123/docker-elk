@@ -1,3 +1,3 @@
 ARG ELASTIC_VERSION
 
-FROM docker.elastic.co/beats/filebeat:${ELASTIC_VERSION}
+FROM elastic/filebeat:8.13.0

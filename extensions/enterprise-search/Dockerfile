@@ -1,4 +1,4 @@
 ARG ELASTIC_VERSION
 
 # https://www.docker.elastic.co/
-FROM docker.elastic.co/enterprise-search/enterprise-search:${ELASTIC_VERSION}
+FROM elastic/enterprise-search:8.13.0
